@@ -17,6 +17,7 @@
 		187C323627B4056F006DD353 /* TestFooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C323527B4056F006DD353 /* TestFooTests.m */; };
 		187C324027B4056F006DD353 /* TestFooUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C323F27B4056F006DD353 /* TestFooUITests.m */; };
 		187C324227B4056F006DD353 /* TestFooUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C324127B4056F006DD353 /* TestFooUITestsLaunchTests.m */; };
+		187C325027B405FA006DD353 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 187C324F27B405FA006DD353 /* fishhook.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		187C323B27B4056F006DD353 /* TestFooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187C323F27B4056F006DD353 /* TestFooUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFooUITests.m; sourceTree = "<group>"; };
 		187C324127B4056F006DD353 /* TestFooUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFooUITestsLaunchTests.m; sourceTree = "<group>"; };
+		187C324E27B405FA006DD353 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		187C324F27B405FA006DD353 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				187C321D27B4056D006DD353 /* SceneDelegate.m */,
 				187C321F27B4056D006DD353 /* ViewController.h */,
 				187C322027B4056D006DD353 /* ViewController.m */,
+				187C324E27B405FA006DD353 /* fishhook.h */,
+				187C324F27B405FA006DD353 /* fishhook.c */,
 				187C322227B4056D006DD353 /* Main.storyboard */,
 				187C322527B4056E006DD353 /* Assets.xcassets */,
 				187C322727B4056F006DD353 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				187C322127B4056D006DD353 /* ViewController.m in Sources */,
+				187C325027B405FA006DD353 /* fishhook.c in Sources */,
 				187C321B27B4056D006DD353 /* AppDelegate.m in Sources */,
 				187C322C27B4056F006DD353 /* main.m in Sources */,
 				187C321E27B4056D006DD353 /* SceneDelegate.m in Sources */,
